@@ -4,6 +4,8 @@ create table tblAlunos (
 	idAluno int identity(1,1),
 	Nome_Aluno varchar(30) not null,
 	Sobrenome varchar(30) not null,
+	Email varchar(50) not null,
+	Telefone varchar(11) not null,
 	CONSTRAINT pk_id_aluno primary key(idAluno)
 );
 
